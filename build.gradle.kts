@@ -10,8 +10,6 @@ val shadowLibrary: Configuration by configurations.creating {
     isCanBeConsumed = false
 }
 
-val authData = if (project.file("auth.data").exists()) project.file("auth.data").readText().trim() else ""
-
 plugins {
     java
     idea
