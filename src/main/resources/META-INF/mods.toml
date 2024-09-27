@@ -39,7 +39,7 @@ authors = "${modAuthors}" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description = '''${modDescription}'''
+description = '''${modDesc}'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies."${modId}"]] #optional
 # the modid of the dependency
